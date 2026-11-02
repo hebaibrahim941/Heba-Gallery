@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heba Gallery | Luxury Jewelry</title>
+   
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color:rgb(40, 30, 45)">
+        <div class="container">
+
+            <a class="item navbar-brand text-light fs-4" href="#">
+                <i class="fa-solid fa-gem" style="color: #d4af37;"></i> Heba Gallery
+            </a>
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="item nav-link active text-light" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="item nav-link text-light" href="List.html">List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="item nav-link text-light" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section class="hero-section bg-dark text-white text-center py-5 d-flex align-items-center position-relative" style="min-height: 80vh; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;">
+        <div class="container my-5">
+            <span class="text-uppercase tracking-wide text-warning mb-2 d-block small">New collection</span>
+            <h1 class="display-3 fw-bold mb-3">Luxury that expresses your femininity</h1>
+            <p class="lead mb-4 col-md-8 mx-auto text-light">Discover the finest jewelry designs, crafted with exceptional artistry to add a touch of magic to every moment.</p>
+            <a href="#shop" class="btn btn-outline-light btn-lg px-4 rounded-0">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Product Showcase Section -->
+    <section id="shop" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Featured Pieces</h2>
+                <p class="text-muted">Handcrafted luxury items curated specifically for you</p>
+            </div>
+
+            <div class="card-group shadow-sm">
+                <div class="card border-0">
+                    <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Floral Diamond Drop Earrings" style="height: 320px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column text-center p-4">
+                        <h5 class="card-title fw-bold">Floral Diamond Earrings</h5>
+                        <p class="card-text text-muted small">Nature-inspired 18K gold drop earrings set with brilliant diamonds.</p>
+                        <p class="fw-bold text-dark mt-auto mb-3">$1,250</p>
+                        <button class="btn btn-dark btn-sm rounded-0">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card border-0 border-start border-end">
+                    <img src="download (12).jpg" class="card-img-top" alt="Gold Bracelet" style="height: 320px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column text-center p-4">
+                        <h5 class="card-title fw-bold">Classic Gold Bracelet</h5>
+                        <p class="card-text text-muted small">Elegantly crafted 21K solid gold bracelet designed for daily wear.</p>
+                        <p class="fw-bold text-dark mt-auto mb-3">$890</p>
+                        <button class="btn btn-dark btn-sm rounded-0">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card border-0">
+                    <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Raw Emerald Pendant Necklace" style="height: 320px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column text-center p-4">
+                        <h5 class="card-title fw-bold">Raw Emerald Pendant</h5>
+                        <p class="card-text text-muted small">Minimalist natural green emerald gemstone set on a fine gold chain.</p>
+                        <p class="fw-bold text-dark mt-auto mb-3">$1,450</p>
+                        <button class="btn btn-dark btn-sm rounded-0">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-light border-top">
+        <div class="container">
+            <div class="text-center mb-4">
+                <span class="text-warning text-uppercase small tracking-wide fw-bold">Client Love</span>
+                <h2 class="fw-bold">What Our Customers Say</h2>
+            </div>
+            
+            <div id="testimonialCarousel" class="carousel slide col-md-8 mx-auto text-center" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active p-4">
+                        <p class="lead italic mb-3">"The ring exceeded my expectations! The shine of the diamond and the weight of the gold are unmatched. Outstanding service from Heba Gallery!"</p>
+                        <h6 class="fw-bold text-warning mb-0">Sophia R.</h6>
+                    </div>
+                    <div class="carousel-item p-4">
+                        <p class="lead italic mb-3">"The packaging alone felt like opening a royal gift. The emerald pendant is my absolute favorite piece now."</p>
+                        <h6 class="fw-bold text-warning mb-0">Emma L.</h6>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Gallery Section -->
+    <section class="py-5 bg-white">
+        <div class="container text-center">
+            <span class="text-warning text-uppercase small tracking-wide fw-bold">#HebaGallery</span>
+            <h2 class="fw-bold mb-4">Follow Us On Instagram</h2>
+            
+            <div class="row row-cols-2 row-cols-md-4 g-3">
+                <div class="col">
+                    <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=400&q=80" class="img-fluid w-100 shadow-sm" alt="Instagram Showcase 1" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="col">
+                    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=400&q=80" class="img-fluid w-100 shadow-sm" alt="Instagram Showcase 2" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="col">
+                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=400&q=80" class="img-fluid w-100 shadow-sm" alt="Instagram Showcase 3" style="height: 250px; object-fit: cover;">
+                </div>
+                <div class="col">
+                    <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=400&q=80" class="img-fluid w-100 shadow-sm" alt="Instagram Showcase 4" style="height: 250px; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIP Circle Subscription -->
+    <section class="py-5 bg-dark text-white text-center">
+        <div class="container py-3 col-md-6">
+            <h3 class="fw-bold mb-2">Join The VIP Circle</h3>
+            <p class="text-muted mb-4">Subscribe to receive exclusive offers, new collection launches, and 10% off your first purchase.</p>
+            
+            <form class="input-group mb-3">
+                <input type="email" class="form-control rounded-0" placeholder="Enter your email address" aria-label="Recipient's email">
+                <button class="btn btn-warning rounded-0 fw-bold px-4" type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-light py-4" style="background-color:rgb(40, 30, 45)">
+        <p class="fs-4 mb-2">
+            <i class="fa-brands fa-facebook-f mx-2" style="color: #d4af37; cursor: pointer;"></i>
+            <i class="fa-brands fa-instagram mx-2" style="color: #d4af37; cursor: pointer;"></i>
+            <i class="fa-brands fa-twitter mx-2" style="color: #d4af37; cursor: pointer;"></i>
+        </p>
+        <p style="color: #d4af37; margin: 0;">
+            © 2026 Heba Gallery. All rights reserved.
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
